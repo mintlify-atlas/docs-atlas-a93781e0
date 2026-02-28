@@ -1,0 +1,365 @@
+{
+  "projectType": "saas",
+  "projectName": "Infisical",
+  "projectDescription": "Open-source platform for secrets, certificates, and privileged access management.",
+  "theme": "mint",
+  "primaryColor": "#A1B659",
+  "lightColor": "#97b31d",
+  "darkColor": "#26272b",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Overview",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "introduction",
+              "quickstart",
+              "features"
+            ]
+          },
+          {
+            "group": "Core Concepts",
+            "pages": [
+              "concepts/architecture",
+              "concepts/organizations-and-projects",
+              "concepts/identities-and-authentication",
+              "concepts/access-control"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Secrets Management",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "pages": [
+              "secrets/overview",
+              "secrets/quickstart"
+            ]
+          },
+          {
+            "group": "Secrets Operations",
+            "pages": [
+              "secrets/managing-secrets",
+              "secrets/secret-versioning",
+              "secrets/secret-references",
+              "secrets/secret-rotation",
+              "secrets/dynamic-secrets"
+            ]
+          },
+          {
+            "group": "Secret Syncing",
+            "pages": [
+              "secrets/syncing/overview",
+              "secrets/syncing/aws-secrets-manager",
+              "secrets/syncing/github-actions",
+              "secrets/syncing/vercel"
+            ]
+          },
+          {
+            "group": "Secret Scanning",
+            "pages": [
+              "secrets/scanning/overview",
+              "secrets/scanning/cli-scanning",
+              "secrets/scanning/git-hooks"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Certificate Management",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "pages": [
+              "pki/overview",
+              "pki/quickstart"
+            ]
+          },
+          {
+            "group": "Certificate Authorities",
+            "pages": [
+              "pki/private-ca",
+              "pki/external-ca",
+              "pki/ca-hierarchy"
+            ]
+          },
+          {
+            "group": "Certificate Lifecycle",
+            "pages": [
+              "pki/certificate-profiles",
+              "pki/certificate-policies",
+              "pki/issuing-certificates",
+              "pki/certificate-renewal",
+              "pki/certificate-revocation"
+            ]
+          },
+          {
+            "group": "Enrollment Methods",
+            "pages": [
+              "pki/enrollment/overview",
+              "pki/enrollment/api",
+              "pki/enrollment/acme",
+              "pki/enrollment/est"
+            ]
+          },
+          {
+            "group": "Certificate Syncing",
+            "pages": [
+              "pki/syncing/overview",
+              "pki/syncing/aws-certificate-manager",
+              "pki/syncing/azure-key-vault"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Access Management",
+        "groups": [
+          {
+            "group": "Authentication",
+            "pages": [
+              "access/authentication/overview",
+              "access/authentication/universal-auth",
+              "access/authentication/kubernetes-auth",
+              "access/authentication/aws-auth",
+              "access/authentication/gcp-auth",
+              "access/authentication/azure-auth",
+              "access/authentication/oidc-auth"
+            ]
+          },
+          {
+            "group": "Authorization",
+            "pages": [
+              "access/authorization/overview",
+              "access/authorization/rbac",
+              "access/authorization/abac",
+              "access/authorization/additional-privileges",
+              "access/authorization/temporary-access"
+            ]
+          },
+          {
+            "group": "Workflows",
+            "pages": [
+              "access/workflows/access-requests",
+              "access/workflows/approval-workflows",
+              "access/workflows/groups"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Platform Services",
+        "groups": [
+          {
+            "group": "Key Management",
+            "pages": [
+              "kms/overview",
+              "kms/creating-keys",
+              "kms/encrypt-decrypt",
+              "kms/key-rotation"
+            ]
+          },
+          {
+            "group": "SSH Management",
+            "pages": [
+              "ssh/overview",
+              "ssh/ssh-certificates",
+              "ssh/ssh-configuration"
+            ]
+          },
+          {
+            "group": "Privileged Access",
+            "pages": [
+              "pam/overview",
+              "pam/session-management",
+              "pam/access-policies"
+            ]
+          },
+          {
+            "group": "Security",
+            "pages": [
+              "security/audit-logs",
+              "security/audit-log-streams",
+              "security/encryption",
+              "security/compliance"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Integrations",
+        "groups": [
+          {
+            "group": "Client SDKs",
+            "pages": [
+              "sdks/overview",
+              "sdks/node",
+              "sdks/python",
+              "sdks/go",
+              "sdks/ruby",
+              "sdks/java",
+              "sdks/csharp"
+            ]
+          },
+          {
+            "group": "CLI",
+            "pages": [
+              "cli/overview",
+              "cli/installation",
+              "cli/authentication",
+              "cli/commands"
+            ]
+          },
+          {
+            "group": "Infrastructure",
+            "pages": [
+              "integrations/kubernetes-operator",
+              "integrations/infisical-agent",
+              "integrations/terraform",
+              "integrations/ansible"
+            ]
+          },
+          {
+            "group": "Cloud Platforms",
+            "pages": [
+              "integrations/aws",
+              "integrations/azure",
+              "integrations/gcp",
+              "integrations/vercel",
+              "integrations/netlify"
+            ]
+          },
+          {
+            "group": "CI/CD",
+            "pages": [
+              "integrations/github-actions",
+              "integrations/gitlab-ci",
+              "integrations/circleci",
+              "integrations/jenkins"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Self-Hosting",
+        "groups": [
+          {
+            "group": "Deployment",
+            "pages": [
+              "self-hosting/overview",
+              "self-hosting/docker",
+              "self-hosting/kubernetes",
+              "self-hosting/docker-compose"
+            ]
+          },
+          {
+            "group": "Configuration",
+            "pages": [
+              "self-hosting/configuration/environment-variables",
+              "self-hosting/configuration/database",
+              "self-hosting/configuration/redis",
+              "self-hosting/configuration/smtp"
+            ]
+          },
+          {
+            "group": "Operations",
+            "pages": [
+              "self-hosting/operations/backup-restore",
+              "self-hosting/operations/upgrading",
+              "self-hosting/operations/monitoring",
+              "self-hosting/operations/troubleshooting"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "API Reference",
+        "groups": [
+          {
+            "group": "Introduction",
+            "pages": [
+              "api/overview",
+              "api/authentication",
+              "api/errors",
+              "api/rate-limits"
+            ]
+          },
+          {
+            "group": "Secrets",
+            "pages": [
+              "api/secrets/list-secrets",
+              "api/secrets/get-secret",
+              "api/secrets/create-secret",
+              "api/secrets/update-secret",
+              "api/secrets/delete-secret"
+            ]
+          },
+          {
+            "group": "Projects",
+            "pages": [
+              "api/projects/list-projects",
+              "api/projects/get-project",
+              "api/projects/create-project",
+              "api/projects/update-project",
+              "api/projects/delete-project"
+            ]
+          },
+          {
+            "group": "Certificates",
+            "pages": [
+              "api/certificates/list-certificates",
+              "api/certificates/get-certificate",
+              "api/certificates/issue-certificate",
+              "api/certificates/revoke-certificate"
+            ]
+          },
+          {
+            "group": "Identities",
+            "pages": [
+              "api/identities/list-identities",
+              "api/identities/create-identity",
+              "api/identities/update-identity",
+              "api/identities/delete-identity"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Secrets Management with versioning and rotation",
+    "Certificate Authority and PKI infrastructure",
+    "Key Management System (KMS)",
+    "SSH certificate management",
+    "Privileged Access Management (PAM)",
+    "Dynamic secrets generation",
+    "Secret syncing to cloud platforms",
+    "RBAC and ABAC access controls",
+    "Multi-environment support",
+    "Kubernetes Operator and Agent",
+    "CLI and SDKs for multiple languages",
+    "Audit logging and compliance",
+    "Self-hosting capabilities"
+  ],
+  "publicApiSurface": [
+    "GET /api/v3/secrets",
+    "POST /api/v3/secrets",
+    "PATCH /api/v3/secrets/{id}",
+    "DELETE /api/v3/secrets/{id}",
+    "GET /api/v1/projects",
+    "POST /api/v1/projects",
+    "GET /api/v1/workspace/{workspaceId}/certificates",
+    "POST /api/v1/pki/certificates/issue",
+    "POST /api/v1/pki/certificates/revoke",
+    "GET /api/v1/auth/token",
+    "POST /api/v1/auth/login",
+    "GET /api/v2/organizations",
+    "POST /api/v1/identity",
+    "GET /api/v1/workspace/{workspaceId}/secret-rotation",
+    "POST /api/v1/workspace/{workspaceId}/dynamic-secrets"
+  ]
+}
